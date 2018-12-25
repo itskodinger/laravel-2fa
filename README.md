@@ -27,9 +27,11 @@ DB_PASSWORD=secret
  
  - [x] Migrate base `users` and `password_resets` migrations!
  
- ```
+ ```bash
  php artisan migrate
  ```
+ 
+ ![](https://kodinger.com/media/Screen%20Shot%202018-12-24%20at%2012.48.56%20PM.png)
  
  
  - [x] Add additional fields on `users` table!
