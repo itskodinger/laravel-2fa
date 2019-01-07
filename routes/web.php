@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('/payment/{method}', 'PaymentController@pay');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
