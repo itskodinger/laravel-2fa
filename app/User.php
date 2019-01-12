@@ -27,4 +27,13 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    /**
+     * Dummy checker.
+     * 
+     * @return bool
+     */
+    public function emailIsVerified() {
+        return true;
+    }
 }
